@@ -63,9 +63,16 @@
 			login () {
 				var username = $("#username").val();
 				var password = $("#password").val();
-				// axios.post('http://localhost:3000/api/userajax',{
-				// 	username:username,
-				// 	password:password,
+				console.log(username,password);
+				// var instance = axios.create({
+				//     headers: {'content-type': 'application/x-www-form-urlencoded'}
+				// });
+				// instance.post('/api/userajax',{
+				// 	params:{
+				// 		username:username,
+				// 		password:password,
+				// 	}
+					
 				// })
 				// .then(function (res) {
 				// 	alert(res)
